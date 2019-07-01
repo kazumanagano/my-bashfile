@@ -6,7 +6,6 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 
-mas "bz.tida.MacWinZipper", id: 413215883
 mas "Xcode", id: 497799835
 mas "LINE", id: 539883307
 mas "Be Focused Pro - Focus Timer", id: 961632517
