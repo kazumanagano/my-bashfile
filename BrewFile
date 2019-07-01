@@ -5,6 +5,12 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+
+mas "bz.tida.MacWinZipper", id: 413215883
+mas "Xcode", id: 497799835
+mas 'LINE', id: 539883307
+mas 'Be Focused Pro - Focus Timer', id: 961632517
+
 cask "java8"
 brew "curl"
 brew "dart"
@@ -41,7 +47,7 @@ cask "discord"
 cask "docker"
 cask "google-chrome"
 cask "google-japanese-ime"
-cask :google-drive-file-stream:
+cask "google-drive-file-stream"
 cask "hyper"
 cask "inkdrop"
 cask "java"
@@ -56,7 +62,3 @@ cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
 cask "xmind"
-mas "bz.tida.MacWinZipper", id: 413215883
-mas "Xcode", id: 497799835
-mas 'LINE', id: 539883307
-mas 'Be Focused Pro - Focus Timer', id: 961632517
