@@ -8,8 +8,9 @@ tap "homebrew/core"
 
 mas "bz.tida.MacWinZipper", id: 413215883
 mas "Xcode", id: 497799835
-mas 'LINE', id: 539883307
-mas 'Be Focused Pro - Focus Timer', id: 961632517
+mas "LINE", id: 539883307
+mas "Be Focused Pro - Focus Timer", id: 961632517
+mas "Paste 2", id: 967805235
 
 cask "java8"
 brew "curl"
