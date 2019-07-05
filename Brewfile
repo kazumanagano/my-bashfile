@@ -5,13 +5,11 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "dart-lang/dart"
+tap "spectralkh/tap"
+tap "mas-cli/tap"
 
-mas "Xcode", id: 497799835
-mas "LINE", id: 539883307
-mas "Be Focused Pro - Focus Timer", id: 961632517
-mas "Paste 2", id: 967805235
-
-cask "java8"
+cask "adoptopenjdk8"
 brew "curl"
 brew "dart"
 brew "gist"
@@ -21,7 +19,6 @@ brew "grpc"
 brew "nodenv"
 brew "rbenv"
 brew "rbenv-gemset"
-brew "rbenv-gem-rehash"
 brew "readline"
 brew "ruby-build"
 brew "ffmpeg"
@@ -33,7 +30,6 @@ brew "wget"
 brew "yarn"
 brew "zsh"
 brew "xcodegen"
-brew "swiftlint"
 brew "python@2"
 brew "python"
 brew "protobuf"
@@ -63,3 +59,10 @@ cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
 cask "xmind"
+cask "flutter"
+
+mas "Xcode", id: 497799835
+mas "LINE", id: 539883307
+mas "Be Focused Pro - Focus Timer", id: 961632517
+mas "Paste 2", id: 967805235
+mas "Realm Browser", id: 1007457278
