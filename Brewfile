@@ -11,7 +11,7 @@ mas "LINE", id: 539883307
 mas "Be Focused Pro - Focus Timer", id: 961632517
 mas "Paste 2", id: 967805235
 
-cask "java8"
+brew "java8"
 brew "curl"
 brew "dart"
 brew "gist"
