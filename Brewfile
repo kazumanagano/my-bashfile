@@ -28,6 +28,7 @@ brew "tree"
 brew "wget"
 brew "yarn"
 brew "zsh"
+brew "fish"
 brew "xcodegen"
 brew "python@2"
 brew "python"
@@ -59,9 +60,15 @@ cask "visual-studio-code"
 cask "vlc"
 cask "xmind"
 cask "flutter"
+cask "skype"
 
 mas "Xcode", id: 497799835
 mas "LINE", id: 539883307
-mas "Be Focused Pro - Focus Timer", id: 961632517
-mas "Paste 2", id: 967805235
-mas "Realm Browser", id: 1007457278
+mas "BeFocused", id: 973134470
+mas "Paste", id: 967805235
+mas "RealmBrowser", id: 1007457278
+mas "DevCleaner", id: 1388020431
+mas "Yoink", id: 457622435
+mas "TweetDeck", id: 485812721
+mas "Keynote", id: 409183694
+mas 'Amphetamine', id: 937984704
