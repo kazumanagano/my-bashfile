@@ -1,5 +1,5 @@
-cask_args appdir: "/Applications"
-tap "caskroom/cask"
+# Brewfile
+
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
