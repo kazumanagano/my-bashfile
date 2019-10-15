@@ -1,78 +1,169 @@
-# Brewfile
 
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
-tap "dart-lang/dart"
-tap "spectralkh/tap"
-tap "mas-cli/tap"
-tap peripheryapp/periphery
+# tap repositories and their packages
 
-cask "adoptopenjdk8"
-brew "curl"
-brew "dart"
-brew "gist"
-brew "git"
-brew "git-flow"
-brew "grpc"
-brew "nodenv"
-brew "rbenv"
-brew "rbenv-gemset"
-brew "readline"
-brew "ruby-build"
-brew "ffmpeg"
-brew "mas"
-brew "mongodb"
-brew "mysql-client"
-brew "tree"
-brew "wget"
-brew "yarn"
-brew "zsh"
-brew "fish"
-brew "xcodegen"
-brew "python@2"
-brew "python"
-brew "protobuf"
-brew "carthage"
-brew "nodebrew"
-cask "1password"
-cask "alfred"
-cask "bloomrpc"
-cask "caffeine"
-cask "cyberduck"
-cask "discord"
-cask "docker"
-cask "google-chrome"
-cask "google-japanese-ime"
-cask "google-drive-file-stream"
-cask "hyper"
-cask "inkdrop"
-cask "java"
-cask "karabiner-elements"
-cask "mysqlworkbench"
-cask "paste"
-cask "realm-studio"
-cask "sketch"
-cask "slack"
-cask "sourcetree"
-cask "tunnelblick"
-cask "visual-studio-code"
-cask "vlc"
-cask "xmind"
-cask "flutter"
-cask "skype"
-cask "periphery"
+tap 'homebrew/core'
+brew 'aom'
+brew 'autoconf'
+brew 'c-ares'
+brew 'cairo'
+brew 'carthage'
+brew 'cask'
+brew 'curl'
+brew 'emacs'
+brew 'ffmpeg'
+brew 'fish'
+brew 'flac'
+brew 'fontconfig'
+brew 'freetype'
+brew 'frei0r'
+brew 'fribidi'
+brew 'gdbm'
+brew 'gettext'
+brew 'gflags'
+brew 'giflib'
+brew 'gist'
+brew 'git'
+brew 'git-flow'
+brew 'glib'
+brew 'gmp'
+brew 'gnutls'
+brew 'graphite2'
+brew 'grpc'
+brew 'harfbuzz'
+brew 'icu4c'
+brew 'jpeg'
+brew 'lame'
+brew 'leptonica'
+brew 'libass'
+brew 'libbluray'
+brew 'libevent'
+brew 'libffi'
+brew 'libidn2'
+brew 'libogg'
+brew 'libpng'
+brew 'libsamplerate'
+brew 'libsndfile'
+brew 'libsoxr'
+brew 'libtasn1'
+brew 'libtiff'
+brew 'libunistring'
+brew 'libvidstab'
+brew 'libvorbis'
+brew 'libvpx'
+brew 'little-cms2'
+brew 'lzo'
+brew 'mas'
+brew 'mysql-client'
+brew 'ncurses'
+brew 'nettle'
+brew 'node'
+brew 'node-build'
+brew 'nodebrew'
+brew 'nodenv'
+brew 'opencore-amr'
+brew 'openjpeg'
+brew 'openssl'
+brew 'openssl@1.1'
+brew 'opus'
+brew 'p11-kit'
+brew 'pcre'
+brew 'pcre2'
+brew 'pixman'
+brew 'pkg-config'
+brew 'protobuf'
+brew 'python'
+brew 'python@2'
+brew 'rbenv'
+brew 'rbenv-gemset'
+brew 'readline'
+brew 'rtmpdump'
+brew 'rubberband'
+brew 'ruby-build'
+brew 'sdl2'
+brew 'snappy'
+brew 'sourcery'
+brew 'speex'
+brew 'sqlite'
+brew 'swiftlint'
+brew 'tesseract'
+brew 'theora'
+brew 'tree'
+brew 'unbound'
+brew 'webp'
+brew 'wget'
+brew 'x264'
+brew 'x265'
+brew 'xcodegen'
+brew 'xvid'
+brew 'xz'
+brew 'yarn'
+brew 'zsh'
 
-mas "Xcode", id: 497799835
-mas "LINE", id: 539883307
-mas "BeFocused", id: 973134470
-mas "Paste", id: 967805235
-mas "RealmBrowser", id: 1007457278
-mas "DevCleaner", id: 1388020431
-mas "Yoink", id: 457622435
-mas "TweetDeck", id: 485812721
-mas "Keynote", id: 409183694
-mas 'Amphetamine', id: 937984704
-mas 'PiPifier', id: 1160374471
-mas 'Gifski', id: 1351639930
+tap 'homebrew/bundle'
+
+tap 'homebrew/cask-versions'
+cask 'adoptopenjdk8'
+
+tap 'homebrew/services'
+
+tap 'homebrew/cask'
+cask '1password'
+cask 'bloomrpc'
+cask 'cyberduck'
+cask 'docker'
+cask 'google-chrome'
+cask 'google-japanese-ime'
+cask 'inkdrop'
+cask 'karabiner-elements'
+cask 'paste'
+cask 'realm-studio'
+cask 'skype'
+cask 'sourcetree'
+cask 'visual-studio-code'
+cask 'xmind'
+
+tap 'caskroom/cask'
+cask 'alfred'
+cask 'discord'
+cask 'google-drive-file-stream'
+cask 'java'
+cask 'sketch'
+cask 'tunnelblick'
+
+tap 'dart-lang/dart'
+brew 'dart'
+
+tap 'mas-cli/tap'
+
+tap 'mongodb/brew'
+brew 'mongodb-community'
+
+tap 'peripheryapp/periphery'
+cask 'periphery'
+
+tap 'rcmdnk/file'
+brew 'brew-file'
+
+tap 'spectralkh/tap'
+cask 'flutter'
+
+# Other Cask applications
+cask 'caffeine'
+cask 'hyper'
+cask 'mysqlworkbench'
+cask 'slack'
+cask 'vlc'
+
+# App Store applications
+mas 'Amphetamine (4.2)', id: 937984704
+mas 'Be Focused (1.7.5)', id: 973134470
+mas 'DevCleaner (1.1.3)', id: 1388020431
+mas 'Gifski (2.1.1)', id: 1351639930
+mas 'Keynote (9.2)', id: 409183694
+mas 'LINE (5.19.0)', id: 539883307
+mas 'Paste (2.5.0)', id: 967805235
+mas 'PiPifier (1.2.4)', id: 1160374471
+mas 'Realm Browser (3.0.1)', id: 1007457278
+mas 'TweetDeck (3.16.1)', id: 485812721
+mas 'Xcode (11.0)', id: 497799835
+mas 'Yoink (3.5.7)', id: 457622435
