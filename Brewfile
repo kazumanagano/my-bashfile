@@ -7,6 +7,7 @@ tap "homebrew/core"
 tap "dart-lang/dart"
 tap "spectralkh/tap"
 tap "mas-cli/tap"
+tap peripheryapp/periphery
 
 cask "adoptopenjdk8"
 brew "curl"
@@ -61,6 +62,7 @@ cask "vlc"
 cask "xmind"
 cask "flutter"
 cask "skype"
+cask "periphery"
 
 mas "Xcode", id: 497799835
 mas "LINE", id: 539883307
@@ -73,3 +75,4 @@ mas "TweetDeck", id: 485812721
 mas "Keynote", id: 409183694
 mas 'Amphetamine', id: 937984704
 mas 'PiPifier', id: 1160374471
+mas 'Gifski', id: 1351639930
