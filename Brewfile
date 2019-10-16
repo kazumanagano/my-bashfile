@@ -157,8 +157,11 @@ cask 'vlc'
 # App Store applications
 mas 'Amphetamine (4.2)', id: 937984704
 mas 'Be Focused (1.7.5)', id: 973134470
+mas 'DevCleaner (1.1.3)', id: 1388020431
 mas 'Gifski (2.1.1)', id: 1351639930
 mas 'iMovie (10.1.13)', id: 408981434
+mas 'Keynote (9.2)', id: 409183694
+mas 'LINE (5.19.0)', id: 539883307
 mas 'PiPifier (1.2.4)', id: 1160374471
 mas 'Realm Browser (3.0.1)', id: 1007457278
 mas 'TweetDeck (3.16.1)', id: 485812721
