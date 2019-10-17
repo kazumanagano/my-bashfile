@@ -154,17 +154,17 @@ cask 'slack'
 cask 'vlc'
 
 # App Store applications
-mas 'Amphetamine_(4.2)', id: 937984704
-mas 'Be_Focused_(1.7.5)', id: 973134470
-mas 'DevCleaner_(1.1.3)', id: 1388020431
-mas 'Gifski_(2.1.1)', id: 1351639930
-mas 'iMovie_(10.1.13)', id: 408981434
-mas 'Keynote_(9.2)', id: 409183694
-mas 'LINE_(5.19.0)', id: 539883307
-mas 'Paste_(2.5.0)', id: 967805235
-mas 'PiPifier_(1.2.4)', id: 1160374471
-mas 'Realm_Browser_(3.0.1)', id: 1007457278
-mas 'TweetDeck_(3.16.1)', id: 485812721
-mas 'Xcode_(11.1)', id: 497799835
-mas 'Yoink_(3.5.7)', id: 457622435
-mas 'ライトクリーナー_(2.2.2)', id: 1037994372
+mas 'Amphetamine (4.2)', id: 937984704
+mas 'Be Focused (1.7.5)', id: 973134470
+mas 'DevCleaner (1.1.3)', id: 1388020431
+mas 'Gifski (2.1.1)', id: 1351639930
+mas 'iMovie (10.1.13)', id: 408981434
+mas 'Keynote (9.2)', id: 409183694
+mas 'LINE (5.19.0)', id: 539883307
+mas 'Paste (2.5.0)', id: 967805235
+mas 'PiPifier (1.2.4)', id: 1160374471
+mas 'Realm Browser (3.0.1)', id: 1007457278
+mas 'TweetDeck (3.16.1)', id: 485812721
+mas 'Xcode (11.1)', id: 497799835
+mas 'Yoink (3.5.7)', id: 457622435
+mas 'ライトクリーナー (2.2.2)', id: 1037994372
